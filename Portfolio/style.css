@@ -1,0 +1,116 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    
+}
+
+.main-content{
+    margin: auto;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.about-content{
+    margin-top: 5%;
+}
+.contact-content{
+    margin-top: 7%;
+}
+.portfolio-content{
+    margin-top: 5%;
+}
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:lightgoldenrodyellow ;
+    /* keeps header at the top*/
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+/* menu stuff */
+header nav {
+    width: 400px;
+    
+}
+header nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+ }
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover{
+    background-color: peachpuff;
+}
+
+header nav ul li{
+    margin-bottom: 10px;
+
+}
+
+header nav ul li a:visited {
+    color: darkolivegreen;
+}
+/* end of menu stuff */
+
+h1 {
+    color: rgb(44, 42, 37);
+}
+
+h3{
+    color:#44364B;
+    border: 2px;
+    background-color: #ACAEC5;
+}
+
+
+p{
+    color:blueviolet;
+}
+
+img {
+    width: 500px;
+}
+#favorite{
+    border: 10px solid #ACAEC5;
+}
+
+.University{
+    width: 400px;
+    margin-bottom: 20px;
+}
+/* for body stuff*/
+.highlights h2 {
+    width: 90%
+  }
+   .highlights p{
+    width: 80%;
+    margin: 15px auto;
+   }
+/*Responsive- overites the stuff on top*/
+/* @- means look at media */
+@media (max-width: 500px) {
+  #university{
+    margin-top:100px;
+  }
+  
+  .highlights h2 {
+    width: 90%
+  }
+   .highlights p{
+    width: 90%
+    margin: 15px auto;
+   }
+
+   
+
+}
